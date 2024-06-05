@@ -70,18 +70,13 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: app("1Password"),
+      b: app("Brave"),
       g: app("Google Chrome"),
       c: app("Notion Calendar"),
       v: app("Zed"),
       d: app("Discord"),
       s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
       t: app("Terminal"),
-      // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
       z: app("zoom.us"),
       // "M"arkdown (Reflect.app)
       m: app("Reflect"),
