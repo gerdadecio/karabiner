@@ -61,12 +61,10 @@ const rules: KarabinerRules[] = [
     ),
     // b = "B"rowse
     b: {
-      t: open("https://twitter.com"),
-      // Quarterly "P"lan
-      p: open("https://qrtr.ly/plan"),
-      y: open("https://news.ycombinator.com"),
+      c: open("https://colorartstudio.ph"),
       f: open("https://facebook.com"),
-      r: open("https://reddit.com"),
+      g: open("https://gerdadecio.com"),
+      x: open("https://xprina.ph"),
     },
     // o = "Open" applications
     o: {
@@ -332,7 +330,7 @@ fs.writeFileSync(
   JSON.stringify(
     {
       global: {
-        show_in_menu_bar: false,
+        show_in_menu_bar: true,
       },
       profiles: [
         {
