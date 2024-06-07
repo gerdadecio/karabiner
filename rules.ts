@@ -68,7 +68,6 @@ const rules: KarabinerRules[] = [
     },
     // o = "Open" applications
     o: {
-      1: app("1Password"),
       b: app("Brave"),
       g: app("Google Chrome"),
       i: app("Iterm"),
@@ -223,16 +222,16 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      e: open(
-        `raycast://extensions/thomas/elgato-key-light/toggle?launchType=background`
-      ),
+      // e: open(
+      //   `raycast://extensions/thomas/elgato-key-light/toggle?launchType=background`
+      // ),
       // "D"o not disturb toggle
-      d: open(
-        `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
-      ),
+      // d: open(
+      //   `raycast://extensions/yakitrak/do-not-disturb/toggle?launchType=background`
+      // ),
       // "T"heme
-      t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
-      c: open("raycast://extensions/raycast/system/open-camera"),
+      // t: open(`raycast://extensions/raycast/system/toggle-system-appearance`),
+      // c: open("raycast://extensions/raycast/system/open-camera"),
     },
 
     // v = "moVe" which isn't "m" because we want it to be on the left hand
@@ -286,10 +285,10 @@ const rules: KarabinerRules[] = [
     // r = "Raycast"
     r: {
       c: open("raycast://extensions/thomas/color-picker/pick-color"),
-      n: open("raycast://script-commands/dismiss-notifications"),
-      l: open(
-        "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
-      ),
+      // n: open("raycast://script-commands/dismiss-notifications"),
+      // l: open(
+      //   "raycast://extensions/stellate/mxstbr-commands/create-mxs-is-shortlink"
+      // ),
       e: open(
         "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
       ),
