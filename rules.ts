@@ -310,6 +310,7 @@ const rules: KarabinerRules[] = [
       h: open(
         "raycast://extensions/raycast/clipboard-history/clipboard-history"
       ),
+      q: open("raycast://extensions/mackopes/quit-applications/quit-all-applications"),
       1: open(
         "raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-1"
       ),
