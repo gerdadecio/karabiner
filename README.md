@@ -62,50 +62,56 @@ The configuration uses a sublayer system where:
 
 ## Complete Shortcut Reference
 
-### Hyper + Spacebar: Quick Actions
+### Hyper + SPACEBAR: Quick Actions
 | Key | Action |
 |-----|--------|
-| Spacebar | Create Notion Todo |
+| Spacebar | Open raycast://extensions/stellate/mxstbr-commands/create-notion-todo |
 
 ### Hyper + B: Browse (Websites)
 | Key | Action |
 |-----|--------|
-| t | Open Twitter |
-| y | Open Hacker News |
-| f | Open Facebook |
-| r | Open Reddit |
+| t | Open https://twitter.com |
+| y | Open https://news.ycombinator.com |
+| f | Open https://facebook.com |
+| r | Open https://reddit.com |
+| h | Open https://hashnode.com/draft |
 
 ### Hyper + O: Open Applications
-| Key | Application |
-|-----|-------------|
-| b | Brave Browser |
-| g | Google Chrome |
-| c | Notion Calendar |
-| v | Visual Studio Code |
-| s | Slack |
-| e | Superhuman (Email) |
-| n | Notion |
-| t | Terminal |
-| z | Zoom |
-| f | Finder |
-| r | Texts (Messages) |
+| Key | Action |
+|-----|--------|
+| b | Open -a 'Brave.app' |
+| g | Open -a 'Google Chrome.app' |
+| c | Open -a 'Notion Calendar.app' |
+| v | Open -a 'Zed.app' |
+| d | Open -a 'Discord.app' |
+| s | Open -a 'Slack.app' |
+| t | Open -a 'Terminal.app' |
+| z | Open -a 'zoom.us.app' |
+| m | Open -a 'Reflect.app' |
+| r | Open -a 'Reflect.app' |
+| f | Open -a 'Finder.app' |
+| i | Open -a 'Texts.app' |
+| p | Open -a 'Spotify.app' |
+| a | Open -a 'iA Presenter.app' |
+| w | Open Texts |
+| l | Open raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink |
 
 ### Hyper + W: Window Management
 | Key | Action |
 |-----|--------|
-| h | Move to left half |
-| j | Move to bottom half |
-| k | Move to top half |
-| l | Move to right half |
-| f | Maximize window |
-| y | Move to previous display |
-| o | Move to next display |
-| u | Previous tab |
-| i | Next tab |
-| n | Next window |
-| b | Browser back |
-| m | Browser forward |
-| ; | Hide window |
+| semicolon | Window: Hide |
+| y | Window: previous-display |
+| o | Window: next-display |
+| k | Window: top-half |
+| j | Window: bottom-half |
+| h | Window: left-half |
+| l | Window: right-half |
+| f | Window: maximize |
+| u | Window: Previous Tab |
+| i | Window: Next Tab |
+| n | Window: Next Window |
+| b | Window: Back |
+| m | Window: Forward |
 
 ### Hyper + S: System Controls
 | Key | Action |
@@ -114,11 +120,11 @@ The configuration uses a sublayer system where:
 | j | Volume down |
 | i | Brightness up |
 | k | Brightness down |
-| p | Play/pause |
-| ; | Fast forward |
 | l | Lock screen |
-| t | Toggle dark/light mode |
-| c | Open camera |
+| p | Play/pause |
+| semicolon | Fast forward |
+| t | Open raycast://extensions/raycast/system/toggle-system-appearance |
+| c | Open raycast://extensions/raycast/system/open-camera |
 | v | Voice control |
 
 ### Hyper + V: Vim-like Navigation
@@ -128,31 +134,31 @@ The configuration uses a sublayer system where:
 | j | Down arrow |
 | k | Up arrow |
 | l | Right arrow |
-| u | Page down |
-| i | Page up |
 | m | Magicmove (homerow.app) |
 | s | Scroll mode (homerow.app) |
 | d | Duplicate line |
+| u | Page down |
+| i | Page up |
 
 ### Hyper + C: Media Controls
 | Key | Action |
 |-----|--------|
 | p | Play/pause |
-| n | Next track |
+| n | Fast forward |
 | b | Previous track |
 
 ### Hyper + R: Raycast Extensions
 | Key | Action |
 |-----|--------|
-| c | Color picker |
-| e | Emoji search |
-| a | AI chat |
-| s | Silent mention |
-| h | Clipboard history |
-| q | Quit all applications |
-| p | Confetti |
-| 1 | Connect Bluetooth device 1 |
-| 2 | Connect Bluetooth device 2 |
+| 1 | Open raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-1 |
+| 2 | Open raycast://extensions/VladCuciureanu/toothpick/connect-favorite-device-2 |
+| c | Open raycast://extensions/thomas/color-picker/pick-color |
+| e | Open raycast://extensions/raycast/emoji-symbols/search-emoji-symbols |
+| p | Open raycast://extensions/raycast/raycast/confetti |
+| a | Open raycast://extensions/raycast/raycast-ai/ai-chat |
+| s | Open raycast://extensions/peduarte/silent-mention/index |
+| h | Open raycast://extensions/raycast/clipboard-history/clipboard-history |
+| q | Open raycast://extensions/mackopes/quit-applications/quit-all-applications |
 
 ## File Structure
 
